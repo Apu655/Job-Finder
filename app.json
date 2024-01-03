@@ -1,6 +1,6 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "jobFinder",
     "web": {
       "bundler": "metro"
     },
@@ -8,6 +8,20 @@
       "expo-router"
     ],
     "name": "jobFinder",
-    "slug": "jobFinder"
+    "slug": "jobFinder",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b547e779-37ee-4dc4-a0e3-a58324193641"
+      }
+    },
+    "android": {
+      "package": "com.apu655.jobFinder"
+    },
+    "ios": {
+      "bundleIdentifier": "com.apu655.jobFinder"
+    }
   }
 }
